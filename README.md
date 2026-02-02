@@ -1,16 +1,82 @@
-# React + Vite
+# Explore New Brunswick 🇨🇦
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern travel inspiration web app focused on exploring **New Brunswick, Canada**.  
+The project showcases destinations, itineraries, and practical travel tips with smooth animations and a clean, responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 🌊 **Destinations**
+  - Interactive orbit-style layout (desktop)
+  - Responsive grid layout (mobile)
+  - Filters by **search**, **region**, and **category**
+- 🗺 **Itineraries**
+  - Ready-to-use travel routes
+  - Filters by region and trip duration
+- 💡 **Travel Tips**
+  - Accordion-style tips with search
+- 🎬 **Smooth animations**
+  - GSAP-powered page and UI animations
+- 📱 **Fully responsive**
+  - Optimized for desktop, tablet, and mobile
+- 🧠 **State management**
+  - Filters handled with Redux Toolkit
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **Redux Toolkit**
+- **React Router**
+- **GSAP**
+- **CSS (custom, no UI frameworks)**
+
+---
+
+## 📂 Project Structure
+
+src/
+- ├── components/
+- ├── pages/
+- ├── data/
+- ├── features/
+- │ ├── filters/
+- │ └── itinerary/
+- ├── store/
+- └── styles/
+
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/explore-nb.git
+cd explore-nb
+npm install
+npm run dev
+```
+---
+
+🖼 Images & Assets
+
+All images used in this project are either:
+
+Personal photographs, or
+
+Free-to-use images optimized for web performance
+
+Images are compressed and optimized for fast loading.
+
+👩‍💻 Author
+
+Viktoriia Adasynska
+Frontend Developer
+
+React • Redux • GSAP
+
+Focused on interactive UI, clean architecture, and performance
