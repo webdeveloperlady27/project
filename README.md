@@ -38,14 +38,21 @@ The project showcases destinations, itineraries, and practical travel tips with 
 ## 📂 Project Structure
 
 src/
-- ├── components/
-- ├── pages/
-- ├── data/
-- ├── features/
-- │ ├── filters/
-- │ └── itinerary/
-- ├── store/
-- └── styles/
+ ├── components/
+ 
+ ├── pages/
+ 
+ ├── data/
+ 
+ ├── features/
+ 
+ │ ├── filters/
+ 
+ │ └── itinerary/
+ 
+ ├── store/
+ 
+ └── styles/
 
 
 ---
@@ -62,7 +69,7 @@ npm run dev
 ```
 ---
 
-🖼 Images & Assets
+## 🖼 Images & Assets
 
 All images used in this project are either:
 
@@ -72,9 +79,10 @@ Free-to-use images optimized for web performance
 
 Images are compressed and optimized for fast loading.
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Viktoriia Adasynska
+
 Frontend Developer
 
 React • Redux • GSAP
