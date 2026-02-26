@@ -1,0 +1,80 @@
+.orbit-stage {
+  position: relative;
+  height: 640px;
+  margin: 26px auto 0;
+  border-radius: 26px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  isolation: isolate;
+}
+
+.orbit {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.orbit-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  width: 260px;
+  border-radius: 18px;
+  overflow: hidden;
+
+  background: rgba(17, 24, 39, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow);
+
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 1;
+
+  will-change: transform;
+  transition:
+    box-shadow 0.22s ease,
+    filter 0.22s ease;
+}
+
+.orbit-card:hover {
+  box-shadow: var(--shadow-hover);
+  filter: brightness(1.05);
+  z-index: 80;
+}
+
+.orbit-card__inner {
+  width: 100%;
+  height: 100%;
+}
+
+.orbit-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.orbit-body {
+  padding: 14px;
+}
+
+.orbit-body h3 {
+  margin-top: 6px;
+}
+
+.orbit-meta {
+  font-size: 12px;
+}
+.orbit-title {
+  margin-top: 6px;
+}
+
+.orbit-desc {
+  margin-top: 6px;
+  font-size: 14px;
+}
